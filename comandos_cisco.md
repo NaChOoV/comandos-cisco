@@ -66,7 +66,14 @@
 
 (config-router)#network \<ip red> \<mask inv> area \<id area>
 
+(config-router) # router-id <ip mayor> //para designar el router identificador
+ 
+ (config)#bandwith <valor ancho de banda> //configuracion ancho de banda
 
+ (config int) #ip ospf cost <valor del costo>
+ 
+ (config int) #ip ospf priority <valor>   //entre 0-22 , 0 no sera designado ni de respaldo
+ 
 ## Switch
 (config)#ip routing //habilita enrutamiento capa 2
 
