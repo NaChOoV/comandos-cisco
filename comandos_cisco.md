@@ -72,7 +72,7 @@
 
  (config int) #ip ospf cost <valor del costo>
  
- (config int) #ip ospf priority <valor>   //entre 0-22 , 0 no sera designado ni de respaldo
+ (config int) #ip ospf priority <valor>   //entre 0-255 , 0 no sera designado ni de respaldo
  
 ## Switch
 (config)#ip routing //habilita enrutamiento capa 2
