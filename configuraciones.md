@@ -38,11 +38,19 @@
 ### Configurar Router(Router a Router):
 ➢ enable \
 ➢ config t \
-➢ int s*/* \
+➢ hostname “nombre del host” \
+➢ int s*/*/* o fa*/* \
 ➢ ip address “ip del gateway” “mascara de red” \
-➢ no shutdown \
-➢ clock rate 1000000 \
+➢ clock rate 1000000 // 1Mb/s \
+➢ no shut \
 
 ### Ingresar IP’s a tabla de rutas:
 ➢ ip route “ip a enrutar” “ip de próximo salto” \ 
 ➢ show ip route \
+
+## Extras:
+
+#### Reiniciar router:
+➢ erase startup-config // elimina configuracion de arranque \
+➢ reload // recarga el sistema operativo para cargar nuevas configuraciones \
+
