@@ -41,7 +41,7 @@
 ➢ hostname “nombre del host” \
 ➢ int s*/*/* o fa*/* \
 ➢ ip address “ip del gateway” “mascara de red” \
-➢ clock rate 1000000 // 1Mb/s \
+➢ clock rate 1000000 // 1Mb/s  para el DCE \
 ➢ no shut \
 
 ### Ingresar IP’s a tabla de rutas:
