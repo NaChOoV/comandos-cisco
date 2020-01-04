@@ -52,6 +52,8 @@
 
 (config-router)#passive-interface <interface/serial> //bloquea el broadcast hacia la interfaz/serial, para bloquear donde no hayan router
 
+(config)# default-information originate // propagacion de ruta por defecto.  
+
 ### EIGRP
 
 (config)#router eigrp
