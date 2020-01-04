@@ -50,7 +50,10 @@
 
 ## Extras:
 
+➢ no auto-summary // Evitar que se sumarice las ip \ 
+
 #### Reiniciar router:
 ➢ erase startup-config // elimina configuracion de arranque \
 ➢ reload // recarga el sistema operativo para cargar nuevas configuraciones \
+
 
