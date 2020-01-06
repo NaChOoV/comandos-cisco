@@ -48,9 +48,13 @@
 ➢ ip route “ip a enrutar” “ip de próximo salto” \ 
 ➢ show ip route \
 
+➢ show ip int br // muestra todas las interfaces\ 
+
+
 ## Extras:
 
 ➢ no auto-summary // Evitar que se sumarice las ip \ 
+
 
 #### Reiniciar router:
 ➢ erase startup-config // elimina configuracion de arranque \
