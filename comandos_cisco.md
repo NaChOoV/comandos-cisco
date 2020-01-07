@@ -56,7 +56,7 @@
 
 ### EIGRP
 
-(config)#router eigrp
+(config)#router eigrp \<numero>
 
 (config-router)#network \<ip red> \<mask inv>
  
