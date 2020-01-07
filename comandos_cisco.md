@@ -54,6 +54,10 @@
 
 (config)# default-information originate // propagacion de ruta por defecto.  
 
+#### RIP v2
+(config)# router rip
+(config-router)# version 2
+
 ### EIGRP
 
 (config)#router eigrp \<numero>
