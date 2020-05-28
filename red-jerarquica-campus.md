@@ -134,12 +134,14 @@
 		#default-router <Gateway>
 		#dns-server 8.8.8.8//ATENCION: El ejercicio puede ofrecer una IP servidor diferente. Especialmente si es que hay un servidor DNS en la red, en ese caso usar su ip.
 
-	*Configurar la IP en cada interfaz VLAN en los dos switch
+	*Configurar la IP en cada interfaz VLAN en los dos switch y el HSRP
 
 		#ip address <numero de ip> <mascara>	//La terminación de la IP debe ser diferente: .2 en un switch y .3 en el otro.
 		#standby <numero VLAN> ip <gateway> //.1 para ambos
-		#standby <numero VLAN> priority <valor: Si VLAN correponde a switch; debe ser mayor (110)sino (100)>
-		#standby <numero VLAN> preempt //Se pone preempt en todas las int vlan 
+		#standby <numero VLAN> priority <valor: Si VLAN correponde a switch; debe ser mayor (110)sino (100) o ignorar>
+		#standby <numero VLAN> preempt //Se pone preempt en todas las int vlan, para lograr recuper el rol activo en caso de caida. 
+
+
 
 
 
